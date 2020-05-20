@@ -1,8 +1,11 @@
 # Outlier Detection and Game Outcome Prediction
  In this project, we analyze the NBA (National Basketball Association) statistics data for predicting the **game outcome and detecting outliers**.
  1. **Outlier Detection**
+ 
     Our aim is finding the players which break apart from ordinary or standard ones. Our outlier dataset variables are greater than one (1) so we focus on multivariate outliers.
+    
     A. **Analyzing Dataset**
+    
     The dataset is formed from 5 different parts. These are;
     
         * Statistics of players in regular season (19113 records), 
@@ -36,6 +39,7 @@ In the case of dimensionality reduction on player_playoff_career data, PCA (Prin
 *First 7 principle components captures nearly 95% of variance in dataset*.
 
   B.**Outlier Detection Alghorithms**
+  
   Different outlier detection algorithms are used, these are;
  
   |  |Algorithm  Name |
