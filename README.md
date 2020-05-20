@@ -51,7 +51,7 @@ In the case of dimensionality reduction on player_playoff_career data, PCA (Prin
  | 5. | Average K-NN |
  
  
-   Feature Bagging Detector
+   **Feature Bagging Detector**
       
    It fits a number of base detectors. It uses base estimator as Local Outlier Factor as default but other estimators such as k-NN or Angle Based Outlier Detector could be user.
    
@@ -60,3 +60,44 @@ In the case of dimensionality reduction on player_playoff_career data, PCA (Prin
    In playoff season dataset, there are 33 outliers and 4430 inliers. Threshold value is **-6231948.694033984**.
    
    ![Feature Bagging](https://github.com/aykseldi/Outlier_Detection/tree/master/ML_Project/2.png?raw=true)
+   
+   **Isolation Forest**
+   This method makes data partitioning by using a set of trees. It calculates an anomaly score examining how much isolated the point in the structure. The anomaly score is then used to identify outliers from normal observations. 
+   
+   In playoff career dataset there are 21 outliers and 2034 inliers. Threshold value is -0.14277197028200625.
+   
+   In playoff season  dataset there are 45 outliers and 4418 inliers. Threshold value is - - -0.1391610505888.
+   
+   ![Isolation Forest](https://github.com/aykseldi/Outlier_Detection/tree/master/ML_Project/2.png?raw=true)
+
+   **K-Nearest Neighbors**
+   
+   The distance to its kth nearest neighbor could be viewed as the outlying score.
+   
+   In playoff career dataset, there are 16 outliers and 2039 inliers. Threshold value is -0.07808484312452174.
+   
+   In playoff season dataset there are 34 outliers and 4429 inliers. Threshold value is -0.05731006134932328.
+
+   ![K-Nearest Neighbors](https://github.com/aykseldi/Outlier_Detection/tree/master/ML_Project/2.png?raw=true)
+   
+   **Clustering Based Local Outlier**
+   
+   It classifies the data into small clusters and large clusters. The anomaly score is then calculated based on the size of the cluster the point belongs to, as well as the distance to the nearest large cluster. 
+   
+   In playoff career dataset, there are 21 outliers and 2034 inliers. Threshold value is -0.6599293211770738.
+   
+   In playoff season dataset, there are 45 outliers and 4418 inliers. Threshold value is -0.6953386755417442.
+
+   ![K-Nearest Neighbors](https://github.com/aykseldi/Outlier_Detection/tree/master/ML_Project/2.png?raw=true)
+   
+   **Average K-NN**
+   
+   It uses the average of all k neighbors as the outlier score.
+   
+   In playoff career dataset, there are 10 outliers and 2045 inliers. Threshold value is -0.04585606196467415.
+   
+   In playoff season dataset, there are 7 outliers and 4456 inliers. Threshold value is -0.04706805441399679.
+   
+   ![Average K-NN](https://github.com/aykseldi/Outlier_Detection/tree/master/ML_Project/2.png?raw=true)
+   
+   We considered a comparison should be made with NBA official website data against our results and methods. In unsupervised learning there is no ground truth for the comparison of results. In order to tackle the issue, we decided to get Most Valued Players of year 2004 from NBA official website. These players are detected with the help of votes from fans, critical assessment of players’ performance on important matches and other factor like fair player and discipline on matches. 
