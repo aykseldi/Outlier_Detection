@@ -14,18 +14,12 @@
     In data exploration, there are 19 features in each dataset and **3 of them are nominal**. These features are **player’s id, name and last name** so these nominal features are not taken into consideration throughout analysis. The remaining features are scaled into 0 to 1 in order to standardize independent variables. 
     
      Furthermore in data preparation stage, other features in the dataset was comprised of sums of all scores so in order to **avoid  most  played player to be a natural outlier, we divide all the scores of players into match played**.
-    
-       
-                                    Number of Scores   
- **Average Formula** =   -------------------------------------- 
-                                Number of Games Played   
-
-
+ 
 In the case of dimensionality reduction on player_playoff_career data, PCA (Principal Component Analysis) is applied. Because PCA takes lower dimensional set of features from a higher dimensional dataset while capturing as much information as possible. For PCA results of Playoff career dataset is shown below.
 
 
 
-/***
+
 | __PCA__ | __Variance__ | __Cumulative Variance__ |
 |-------------|------------|------------|
 | PCA1        | 0.502874     | 50.29    |
@@ -37,5 +31,19 @@ In the case of dimensionality reduction on player_playoff_career data, PCA (Prin
 | PCA7    | 0.0223254 | 94.79 |
 | PCA8         | 0.0169766 | 96.49     |
 | PCA9    | 0.0149214| 97.98 |
-***/
+
+
+*First 7 principle components captures nearly 95% of variance in dataset*.
+
+  B.**Outlier Detection Alghorithms**
+  Different outlier detection algorithms are used, these are;
+ 
+  |  |Algorithm  Name |
+------------ | -------------
+ | 1. | Feature Bagging Outlier Detection|
+ | 2. | Isolation Forest|
+ | 3. | k-Nearest Neighbors Detector|
+ | 4. | Cluster-based Local Outlier Detection|
+ | 5. | Average K-NN |
+
 
