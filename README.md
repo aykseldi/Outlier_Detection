@@ -51,3 +51,8 @@ In the case of dimensionality reduction on player_playoff_career data, PCA (Prin
  | 5. | Average K-NN |
 
 
+      **Feature Bagging Detector**
+      
+      It fits a number of base detectors. It uses base estimator as Local Outlier Factor as default but other estimators such as k-NN or Angle Based Outlier Detector could be user.
+   In playoff career dataset, there are 20 outliers and 2036 Inliers. Threshold value is **-0.7118109714421073**.
+   In playoff season dataset, there are 33 outliers and 4430 inliers. Threshold value is **-6231948.694033984**.
