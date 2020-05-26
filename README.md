@@ -59,7 +59,7 @@ In the case of dimensionality reduction on player_playoff_career data, PCA (Prin
    
    In playoff season dataset, there are 33 outliers and 4430 inliers. Threshold value is **-6231948.694033984**.
    
-   ![Feature Bagging] (https://github.com/aykseldi/Outlier_Detection/tree/master/ML_Project/2.png?raw=true)
+   ![Feature Bagging](https://github.com/aykseldi/Outlier_Detection/tree/master/ML_Project/2.png)
    
    **Isolation Forest**
    This method makes data partitioning by using a set of trees. It calculates an anomaly score examining how much isolated the point in the structure. The anomaly score is then used to identify outliers from normal observations. 
@@ -68,7 +68,7 @@ In the case of dimensionality reduction on player_playoff_career data, PCA (Prin
    
    In playoff season  dataset there are 45 outliers and 4418 inliers. Threshold value is - - -0.1391610505888.
    
-   ![Isolation Forest](https://github.com/aykseldi/Outlier_Detection/tree/master/ML_Project/isforest.png?raw=true)
+   ![Isolation Forest](https://github.com/aykseldi/Outlier_Detection/tree/master/ML_Project/isforest.png)
 
    **K-Nearest Neighbors**
    
@@ -78,7 +78,7 @@ In the case of dimensionality reduction on player_playoff_career data, PCA (Prin
    
    In playoff season dataset there are 34 outliers and 4429 inliers. Threshold value is -0.05731006134932328.
 
-   ![K-Nearest Neighbors](https://github.com/aykseldi/Outlier_Detection/tree/master/ML_Project/knn.png?raw=true)
+   ![K-Nearest Neighbors](https://github.com/aykseldi/Outlier_Detection/tree/master/ML_Project/knn.png)
    
    **Clustering Based Local Outlier**
    
@@ -88,7 +88,7 @@ In the case of dimensionality reduction on player_playoff_career data, PCA (Prin
    
    In playoff season dataset, there are 45 outliers and 4418 inliers. Threshold value is -0.6953386755417442.
 
-   ![K-Nearest Neighbors](https://github.com/aykseldi/Outlier_Detection/tree/master/ML_Project/1.png?raw=true)
+   ![K-Nearest Neighbors](https://github.com/aykseldi/Outlier_Detection/tree/master/ML_Project/1.png)
    
    **Average K-NN**
    
@@ -98,6 +98,6 @@ In the case of dimensionality reduction on player_playoff_career data, PCA (Prin
    
    In playoff season dataset, there are 7 outliers and 4456 inliers. Threshold value is -0.04706805441399679.
    
-   ![Average K-NN](https://github.com/aykseldi/Outlier_Detection/tree/master/ML_Project/avg_knn.png?raw=true)
+   ![Average K-NN](https://github.com/aykseldi/Outlier_Detection/tree/master/ML_Project/avg_knn.png)
    
    We considered a comparison should be made with NBA official website data against our results and methods. In unsupervised learning there is no ground truth for the comparison of results. In order to tackle the issue, we decided to get Most Valued Players of year 2004 from NBA official website. These players are detected with the help of votes from fans, critical assessment of players’ performance on important matches and other factor like fair player and discipline on matches.It is showed in table below. 
