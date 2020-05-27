@@ -20,43 +20,6 @@
  
 In the case of dimensionality reduction on player_playoff_career data, PCA (Principal Component Analysis) is applied. Because PCA takes lower dimensional set of features from a higher dimensional dataset while capturing as much information as possible. For PCA results of Playoff career dataset is shown below.
 
-Player | Pts Won | Share of Vote
-----------|---------------|--------------------
-Steve Nash | 1066.0 | 0.839
-
-Shaquille O'Neal | 1032.0 | 0.813
-
-Dirk Nowitzki | 349.0  | 0.275
-
-Tim Duncan | 328.0 | 0.258
-
-Allen Iverson | 240.0  | 0.189
-
-LeBron James | 93.0 | 0.073
-
-Tracy McGrady | 44.0  | 0.035
-
-Dwyane Wade | 43.0 | 0.034
-
-Amar'e Stoudemire | 41.0  | 0.032
-
-Ray Allen | 41.0 | 0.032
-
-Kevin Garnett  |15.0 | 0.012
-
-Gilbert Arenas | 4.0 |0.003
-
-Vince Carter  | 3.0 0.| 002
-
-P.J. Brown  | 1.0 | 0.001
-
-Marcus Camby | 1.0 | 0.001
-
-Shawn Marion | 1.0 | 0.001
-
-
-
-
 | __PCA__ | __Variance__ | __Cumulative Variance__ |
 |-------------|------------|------------|
 | PCA1        | 0.502874     | 50.29    |
@@ -150,7 +113,7 @@ Amar'e Stoudemire | 41.0  | 0.032
 Ray Allen | 41.0 | 0.032
 Kevin Garnett  |15.0 | 0.012
 Gilbert Arenas | 4.0 |0.003
-Vince Carter  | 3.0 0.| 002
+Vince Carter  | 3.0 | 0.002
 P.J. Brown  | 1.0 | 0.001
 Marcus Camby | 1.0 | 0.001
 Shawn Marion | 1.0 | 0.001
