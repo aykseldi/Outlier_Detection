@@ -98,6 +98,6 @@ In the case of dimensionality reduction on player_playoff_career data, PCA (Prin
    
    In playoff season dataset, there are 7 outliers and 4456 inliers. Threshold value is -0.04706805441399679.
    
-   ![Average K-NN](https://github.com/aykseldi/Outlier_Detection/tree/master/ML_Project/avg_knn.png)
+   ![Average K-NN](https://github.com/aykseldi/Outlier_Detection/blob/master/ML_Project/avg_knn.png)
    
    We considered a comparison should be made with NBA official website data against our results and methods. In unsupervised learning there is no ground truth for the comparison of results. In order to tackle the issue, we decided to get Most Valued Players of year 2004 from NBA official website. These players are detected with the help of votes from fans, critical assessment of players’ performance on important matches and other factor like fair player and discipline on matches.It is showed in table below. 
