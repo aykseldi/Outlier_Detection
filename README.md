@@ -88,7 +88,7 @@ In the case of dimensionality reduction on player_playoff_career data, PCA (Prin
    
    In playoff season dataset, there are 45 outliers and 4418 inliers. Threshold value is -0.6953386755417442.
 
-   ![K-Nearest Neighbors](https://github.com/aykseldi/Outlier_Detection/tree/master/ML_Project/1.png)
+   ![Clustering Based Local Outlier](https://github.com/aykseldi/Outlier_Detection/blob/master/ML_Project/1.png)
    
    **Average K-NN**
    
