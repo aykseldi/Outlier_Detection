@@ -135,3 +135,37 @@ Shawn Marion | 1.0 | 0.001
    ![Average K-NN](https://github.com/aykseldi/Outlier_Detection/blob/master/ML_Project/avg_knn.png)
    
    We considered a comparison should be made with NBA official website data against our results and methods. In unsupervised learning there is no ground truth for the comparison of results. In order to tackle the issue, we decided to get Most Valued Players of year 2004 from NBA official website. These players are detected with the help of votes from fans, critical assessment of players’ performance on important matches and other factor like fair player and discipline on matches.It is showed in table below. 
+   
+   **Player | Pts Won | Share of Vote**
+----------|---------|-----------
+Steve Nash | 1066.0 | 0.839
+
+Shaquille O'Neal | 1032.0 | 0.813
+
+Dirk Nowitzki | 349.0  | 0.275
+
+Tim Duncan | 328.0 | 0.258
+
+Allen Iverson | 240.0  | 0.189
+
+LeBron James | 93.0 | 0.073
+
+Tracy McGrady | 44.0  | 0.035
+
+Dwyane Wade | 43.0 | 0.034
+
+Amar'e Stoudemire | 41.0  | 0.032
+
+Ray Allen | 41.0 | 0.032
+
+Kevin Garnett  |15.0 | 0.012
+
+Gilbert Arenas | 4.0 |0.003
+
+Vince Carter  | 3.0 0.| 002
+
+P.J. Brown  | 1.0 | 0.001
+
+Marcus Camby | 1.0 | 0.001
+
+Shawn Marion | 1.0 | 0.001
