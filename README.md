@@ -117,3 +117,18 @@ Vince Carter  | 3.0 | 0.002
 P.J. Brown  | 1.0 | 0.001
 Marcus Camby | 1.0 | 0.001
 Shawn Marion | 1.0 | 0.001
+
+
+ In feature selection process, we have used PCA and turned its disadvantage of generating principle component without looking at target into advantage on our unsupervised learning problem. It helped us on reducing dimensionality of data from 19 to 7.
+   The algorithms we have used calculated a threshold value for separating normal ones with the anomalies or outperformer. We use an outlier fraction parameter during our research since our aim is finding observations that are not similar to rest of data. First we take it 0.05 and we have come up with nearly 60 outliers so after some iterations we hold the value on 0.01.
+   k-NN shows greater performance on our dataset and in average its success rate is 87%, so it makes him superior in comparison with other algorithms. But it is important to keep in mind that, in unsupervised learning researches it is difficult to detect basic truth. Even though our algorithms shows 87% success, voting preferences of fans and emotional factors may change MVP voting results.
+   Future works may include different dataset, may increase the number of activation functions, the number of different training functions, hidden layers or neurons. Also different classification models, network configurations like Bayesian Belief Network, Radial basis neural network etc. and outlier detection models may be applied and compared to each other.
+
+
+Algorithm Detected |Outlier |Comparison Percentage
+----------|------------------|-----------|----------------------------------
+Feature Bagging Detector | 12 | 0.75
+Isolation Forest | 12 | 0.75
+k-NN | 14 | 0.875
+Clustering Based Local Outlier | 13 | 0.8125
+Average k-NN | 8 | 0.50
