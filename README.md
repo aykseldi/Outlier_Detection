@@ -59,7 +59,7 @@ In the case of dimensionality reduction on player_playoff_career data, PCA (Prin
    
    In playoff season dataset, there are 33 outliers and 4430 inliers. Threshold value is **-6231948.694033984**.
    
-   ![Feature Bagging](/tree/master/ML_Project/2.png)
+   ![Feature Bagging](https://github.com/aykseldi/Outlier_Detection/blob/master/ML_Project/2.png)
    
    **Isolation Forest**
    This method makes data partitioning by using a set of trees. It calculates an anomaly score examining how much isolated the point in the structure. The anomaly score is then used to identify outliers from normal observations. 
