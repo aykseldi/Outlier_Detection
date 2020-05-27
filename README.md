@@ -126,7 +126,7 @@ Shawn Marion | 1.0 | 0.001
 
 
 Algorithm Detected |Outlier |Comparison Percentage
-----------|------------------|-----------|----------------------------------
+----------|----------------|--------------------
 Feature Bagging Detector | 12 | 0.75
 Isolation Forest | 12 | 0.75
 k-NN | 14 | 0.875
