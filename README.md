@@ -1,4 +1,4 @@
-# OUTLIER Detection and Game Outcome Prediction
+# OUTLIER DETECTION and Game Outcome Prediction
  In this project, we analyze the NBA (National Basketball Association) statistics data for predicting the **game outcome and detecting outliers**.
  1. **Outlier Detection**
  
