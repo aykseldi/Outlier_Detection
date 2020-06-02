@@ -138,3 +138,6 @@ Isolation Forest | 12 | 0.75
 k-NN | 14 | 0.875
 Clustering Based Local Outlier | 13 | 0.8125
 Average k-NN | 8 | 0.50
+
+
+...
